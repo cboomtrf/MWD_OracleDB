@@ -17,11 +17,11 @@ BEGIN
   HTP.PRINT('<html>');
   HTP.PRINT('<head>');
   HTP.PRINT('<meta http-equiv="Content-Type" content="text/html">');
-  HTP.PRINT('<title>List of Employees</title>');
+  HTP.PRINT('<title>List of Created Items for sale</title>');
   HTP.PRINT('</head>'); 
   HTP.PRINT('<body TEXT="#000000" BGCOLOR="#FFFFFF">');
-  HTP.PRINT('<h1>List of Employees</h1>');
-  HTP.PRINT('<table width="40%" border="1">');
+  HTP.PRINT('<h1>List of Created Items for sale</h1>');
+  HTP.PRINT('<table width="80%" border="1">');
   HTP.PRINT('<tr>');
   HTP.PRINT('<th align="left">Name</th>');
   HTP.PRINT('<th align="left">Item Type</th>');
