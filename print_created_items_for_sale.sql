@@ -1,3 +1,9 @@
+/**
+ * Follow instructions on below url to ensure that Oracle Net listener can accept HTTP requests
+ * https://docs.oracle.com/cd/B28359_01/appdev.111/b28424/adfns_web.htm#i1006207
+ * Then run this procedure with the url: http://host:port/plsql/print_created_items_for_sale
+**/
+
 CREATE OR REPLACE PROCEDURE print_created_items_for_sale IS
   CURSOR item_cursor IS
     SELECT i.name, c.created_item_type, i.description, i.list_price, i.current_amount
